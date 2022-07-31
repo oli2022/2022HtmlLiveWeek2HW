@@ -50,3 +50,178 @@ table {
 
 /* css reset End */
 
+.wrap {
+    margin: 0 auto;
+}
+
+/* titleBlock */
+.titleBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titleBlock ul li{
+    margin: 0 auto;
+}
+.titleFoneOne {
+    font: italic normal bold 24px/42px Roboto;
+}
+.titleFoneTwo {
+    font: italic normal 900 80px/106px Roboto;
+}
+.titleFoneThree {
+    font: italic normal bold 24px/36px Roboto;
+    padding-bottom: 50px;
+}
+.titleFoneOne, .titleFoneTwo, .titleFoneThree {
+    color: #FFFFFF;
+}
+.titleIcon {
+    display: flex;
+    justify-content: space-between;
+}
+.titleBlock img {
+    position: relative;
+    z-index: 1;
+}
+.titleBlock ul {
+    position: absolute;
+    z-index: 2;
+}
+/* titleBlock */
+
+/* aboutBlock */
+
+.aboutBlock {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.aboutBlock ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aboutBlock ul li {
+    font: italic normal bold 24px/42px Roboto;
+    text-align: center;
+}
+.aboutBlock ul li h2 {
+    font: italic normal medium 64px/84px Roboto;
+    font-size: 64px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.aboutLi {
+    border-bottom: 1px solid;
+    padding-bottom: 20px;
+}
+.listStyle {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.listStyle::before {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: #891818;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+/* aboutBlock */
+
+/* myBrand */
+
+.myBrand {
+    background-color: black;
+    
+}
+.myBrand ul {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.fonts {
+    color: #FFFFFF;
+    text-align: center;
+}
+.fontsOne {
+    font: italic normal bold 64px Roboto;
+}
+.fontsTwo {
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.fonts li p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+.myBrandImgs {
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* myBrand */
+
+/* otherWorks */
+
+
+.otherWorks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.otherTitle {
+    font: italic normal bold 64px Roboto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+.otherP {
+    font-size: 20px;
+}
+.otherP p {
+    padding-top: 10px;
+}
+
+.otherImgs {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.otherImgs img {
+    padding: 10px;
+}
+/* otherWorks */
+
+/* footer */
+
+.footer {
+    color: #FFFFFF;
+    background-color: black;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footerTitle {
+    font: italic normal bold 64px Roboto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footerFonts {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 24px;
+}
+/* footer */
