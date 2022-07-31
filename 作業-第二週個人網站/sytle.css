@@ -200,11 +200,10 @@ table {
     padding-top: 50px;
     padding-bottom: 50px;
 }
-.otherImgs li {
-    width: 90%;
-}
-.otherImgs img {
+
+.otherImgs li a img {
     padding: 5px;
+    width: 90%;
 }
 /* otherWorks */
 
