@@ -201,8 +201,10 @@ table {
     padding-bottom: 50px;
 }
 
-.otherImgs img {
-    padding: 5px;
+.otherImgs ul li a img {
+    /* padding: 5px; */
+
+    width: 90%;
 }
 /* otherWorks */
 
